@@ -28,6 +28,7 @@ namespace TestEntityFramework
                 territory.TerritoryDescription = newTerritory.TerritoryDescription;
                 territory.RegionID = newTerritory.RegionID;
                 entities.SaveChanges();
+                //test
             }
         }
 
